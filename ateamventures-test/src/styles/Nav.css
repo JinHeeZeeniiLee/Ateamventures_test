@@ -8,5 +8,5 @@
 }
 
 .nav-title {
-    justify-content: flex-start;
+    position: relative;
 }
