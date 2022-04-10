@@ -1,18 +1,16 @@
 import * as React from 'react'; 
 import './Dashboard.css';
+import Nav from '../components/Nav.tsx';
 
 const Dashboard = () => {
 
 
     return(
-        <>
-        <nav className="nav">
-                <div className="nav-title">CAPA파트너스</div>
-                <div>
-                    <i className="fa-thin fa-buildings"></i>
-                </div>
-        </nav>
-        </>
+        <div>
+            <div className="nav">
+                <Nav title='CAPA 파트너스' name='A 가공업체' disabled='로그아웃'/>
+            </div>
+        </div>
     )
 }
 

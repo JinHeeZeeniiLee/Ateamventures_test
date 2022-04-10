@@ -1,9 +1,11 @@
-import Dashboard from './pages/Dashboard'
-import './App.css';
+import * as React from 'react';
+import Dashboard from './pages/Dashboard.tsx';
+// import GlobalStyles from './styles/GlobalStyles.ts';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Dashboard/>
     </div>
   );
