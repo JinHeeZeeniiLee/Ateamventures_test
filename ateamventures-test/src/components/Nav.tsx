@@ -19,7 +19,7 @@ const Nav = (name,disabled) => {
         {disabled}
     </div>
 </nav>}
-aaaa
+
 )
 
 export default Nav;
